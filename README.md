@@ -21,6 +21,8 @@ For 3D datasets:
    This technique introduces additional variations to the input data during training, which can help to reduce overfitting and improve the generalization performance of the model. We created a class “Transform3D” to apply transformations for both the training and evaluation images. This was done to randomly scale the input voxel data during training. This technique had a significant impact on the performance
 
 ## PneumoniaMNIST
+Description: The PneumoniaMNIST is based on a prior dataset of 5,856 pediatric chest X-Ray images. The task is binary-class classification of pneumonia against normal. We split the source training set with a ratio of 9:1 into training and validation set and use its source validation set as the test set
+
 Hyperparameter Tuning Parameters:
 1. Loss function: AUCM loss
 2. Momentum: 0.8
@@ -29,6 +31,8 @@ Hyperparameter Tuning Parameters:
 5. Weight_decay: 0.001
 
 ## NoduleMNIST3D
+Description: The NoduleMNIST3D is based on the LIDC-IDRI, a large public lung nodule dataset, containing images from thoracic CT scans. The dataset is designed for both lung nodule segmentation and 5-level malignancy classification task
+
 Hyperparameter Tuning Parameters:
 1. Loss function: AUCM loss
 2. Momentum: 0.7
@@ -38,6 +42,9 @@ Hyperparameter Tuning Parameters:
 6. Weight_decay: 1e-4
 
 ## AdrenalMNIST3D
+Description: The AdrenalMNIST3D is a new 3D shape classification dataset, consisting of shape masks from 1,584 left and right adrenal glands (i.e., 792 patients). Collected from Zhongshan Hospital Affiliated to Fudan University, each 3D shape of adrenal gland is annotated by an expert endocrinologist using abdominal computed tomography (CT), together with a binary classification label of normal adrenal gland or adrenal mass.
+
+Hyperparameter Tuning Parameters:
 1. Loss function: AUCM loss
 2. Momentum: 0.7
 3. Margin: 1.0
@@ -46,6 +53,9 @@ Hyperparameter Tuning Parameters:
 6. Weight_decay: 1e-4
 
 ## VesselMNIST3D
+Description: The VesselMNIST3D is based on an open-access 3D intracranial aneurysm dataset, IntrA, containing 103 3D models (meshes) of entire brain vessels collected by reconstructing MRA images. 1,694 healthy vessel segments and 215 aneurysm segments are generated automatically from the complete models
+
+Hyperparameter Tuning Parameters:
 1. Loss function: AUCM loss
 2. Momentum: 0.7
 3. Margin: 1.0
@@ -54,6 +64,9 @@ Hyperparameter Tuning Parameters:
 6. Weight_decay: 1e-4
 
 ## SynapseMNIST3D
+Description: The SynapseMNIST3D is a new 3D volume dataset to classify whether a synapse is excitatory or inhibitory. It uses a 3D image volume of an adult rat acquired by a multi-beam scanning electron microscope.
+
+Hyperparameter Tuning Parameters:
 1. Loss function: AUCM loss
 2. Momentum: 0.7
 3. Margin: 1.0
