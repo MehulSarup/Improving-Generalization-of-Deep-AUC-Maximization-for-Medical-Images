@@ -22,44 +22,44 @@ For 3D datasets:
 
 ## PneumoniaMNIST
 Hyperparameter Tuning Parameters:
-Loss function: AUCM loss
-Momentum: 0.8
-Margin: 1.0
-Learning rate: 0.1
-Weight_decay: 0.001
+1. Loss function: AUCM loss
+2. Momentum: 0.8
+3. Margin: 1.0
+4. Learning rate: 0.1
+5. Weight_decay: 0.001
 
 ## NoduleMNIST3D
 Hyperparameter Tuning Parameters:
-Loss function: AUCM loss
-Momentum: 0.7
-Margin: 1.0
-Epoch_decay: 2e-3
-Learning rate: 0.1
-Weight_decay: 1e-4
+1. Loss function: AUCM loss
+2. Momentum: 0.7
+3. Margin: 1.0
+4. Epoch_decay: 2e-3
+5. Learning rate: 0.1
+6. Weight_decay: 1e-4
 
 ## AdrenalMNIST3D
-Loss function: AUCM loss
-Momentum: 0.7
-Margin: 1.0
-Epoch_decay: 0.05
-Learning rate: 0.1
-Weight_decay: 1e-4
+1. Loss function: AUCM loss
+2. Momentum: 0.7
+3. Margin: 1.0
+4. Epoch_decay: 0.05
+5. Learning rate: 0.1
+6. Weight_decay: 1e-4
 
 ## VesselMNIST3D
-Loss function: AUCM loss
-Momentum: 0.7
-Margin: 1.0
-Epoch_decay: 2e-3
-Learning rate: 0.1
-Weight_decay: 1e-4
+1. Loss function: AUCM loss
+2. Momentum: 0.7
+3. Margin: 1.0
+4. Epoch_decay: 2e-3
+5. Learning rate: 0.1
+6. Weight_decay: 1e-4
 
 ## SynapseMNIST3D
-Loss function: AUCM loss
-Momentum: 0.7
-Margin: 1.0
-Epoch_decay: 2e-3
-Learning rate: 0.1
-Weight_decay: 1e-4
+1. Loss function: AUCM loss
+2. Momentum: 0.7
+3. Margin: 1.0
+4. Epoch_decay: 2e-3
+5. Learning rate: 0.1
+6. Weight_decay: 1e-4
 
 ## Results
 Dataset Test | AUC
