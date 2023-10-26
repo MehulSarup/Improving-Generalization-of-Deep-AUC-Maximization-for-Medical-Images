@@ -20,6 +20,46 @@ For 3D datasets:
 1. ### Data Augmentation:
    This technique introduces additional variations to the input data during training, which can help to reduce overfitting and improve the generalization performance of the model. We created a class “Transform3D” to apply transformations for both the training and evaluation images. This was done to randomly scale the input voxel data during training. This technique had a significant impact on the performance
 
+## PneumoniaMNIST
+Hyperparameter Tuning Parameters:
+Loss function: AUCM loss
+Momentum: 0.8
+Margin: 1.0
+Learning rate: 0.1
+Weight_decay: 0.001
+
+## NoduleMNIST3D
+Hyperparameter Tuning Parameters:
+Loss function: AUCM loss
+Momentum: 0.7
+Margin: 1.0
+Epoch_decay: 2e-3
+Learning rate: 0.1
+Weight_decay: 1e-4
+
+## AdrenalMNIST3D
+Loss function: AUCM loss
+Momentum: 0.7
+Margin: 1.0
+Epoch_decay: 0.05
+Learning rate: 0.1
+Weight_decay: 1e-4
+
+## VesselMNIST3D
+Loss function: AUCM loss
+Momentum: 0.7
+Margin: 1.0
+Epoch_decay: 2e-3
+Learning rate: 0.1
+Weight_decay: 1e-4
+
+## SynapseMNIST3D
+Loss function: AUCM loss
+Momentum: 0.7
+Margin: 1.0
+Epoch_decay: 2e-3
+Learning rate: 0.1
+Weight_decay: 1e-4
 
 ## Results
 Dataset Test | AUC
