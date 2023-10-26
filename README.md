@@ -23,7 +23,8 @@ For 3D datasets:
 
 ## Results
 Dataset Test | AUC
-1. NoduleMNIST3D | 0.89
-2. AdrenalMNIST3D | 0.80
-3. VesselMNIST3D | 0.86
-4. SynapseMNIST3D | 0.74
+1. PneumoniaMNIST | 0.91
+2. NoduleMNIST3D | 0.89
+3. AdrenalMNIST3D | 0.80
+4. VesselMNIST3D | 0.86
+5. SynapseMNIST3D | 0.74
